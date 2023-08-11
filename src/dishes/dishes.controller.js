@@ -132,7 +132,6 @@ function update(req, res) {
     data: { name, description, price, image_url },
   } = req.body;
   let updatedDish = {
-    id: dishId,
     name: req.body.data.name,
     description: req.body.data.description,
     price: req.body.data.price,
